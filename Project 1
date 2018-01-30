@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <string.h> 
+#include <stdlib.h>
+
+char* reverse(int);
+int sum(int);
+
+int main()
+{
+    char* string = reverse(0);
+    printf("%s", string);
+
+    return 0;
+}
+
+char* reverse(int input){
+    char output = "Hello";
+    return output;
+}
+
+int sum(int input){
+    int output = 0;
+    return output;
+}
